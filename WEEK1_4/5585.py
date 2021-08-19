@@ -5,4 +5,5 @@ count = 0
 for i in b:
     count += a // i
     a %= i
+    
 print(count)
