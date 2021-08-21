@@ -7,4 +7,5 @@ count = 0
 for i in m:
     count += a // i
     a %= i
+    
 print(count)
