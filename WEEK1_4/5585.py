@@ -1,10 +1,9 @@
-n = int(input())
-m = [500, 100, 50, 10, 5, 1]
-
-a = 1000 - n
+a = 1000 - int(input())
+b = [500, 100, 50, 10, 5, 1]
 count = 0
 
-for i in m:
+for i in b:
     count += a // i
     a %= i
+
 print(count)
